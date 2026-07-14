@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+}
+.btn{
+    border: 10px solid black;
+    border-radius: 20%;
+    height:200px;
+    width: 200px;
+    margin: 2rem;
+}
+
+.divContainer{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: rgb(255, 80, 80);
+}
+.green{
+    background-color:rgb(101, 191, 101);
+}
+.yellow{
+    background-color:rgb(255, 197, 88);
+}
+.purple{
+    background-color:rgb(242, 116, 242);
+}
+.white{
+    background-color: white;
+}
