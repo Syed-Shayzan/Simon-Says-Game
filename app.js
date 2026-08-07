@@ -4,15 +4,19 @@ let userSeq = [];
 let started = false;
 let Level = 0;
 let h3 = document.querySelector('h3');
+let startBtn = document.querySelector('#start-btn');
 
-document.addEventListener("keypress",function(){
-    if(started == false){
-        console.log("Game started");
-        started = true;
+function GameStart() {
+    if(gameStart == false){
+        console.log("Game Started");
+        gameStart = true;
+        startBtn.style.display = 'none';
 
-        levelUp();
+        level();
     }
-});
+};
+startBtn.addEventListener("click", GameStart);
+document.addEventListener("keypress", GameStart);
 
 
 function flash(btn){
@@ -70,6 +74,8 @@ function gameOver(){
     userSeq = [];
     Level = 0;
     started = false;
+    startBtn.style.display = 'flex';
+    startBtn.style.justifyContent = 'center';
 }
 
 
