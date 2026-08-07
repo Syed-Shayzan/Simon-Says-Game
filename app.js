@@ -12,7 +12,7 @@ function GameStart() {
         started = true;
         startBtn.style.display = 'none';
 
-        level();
+        levelUp();
     }
 };
 startBtn.addEventListener("click", GameStart);
