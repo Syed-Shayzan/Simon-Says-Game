@@ -9,7 +9,7 @@ let startBtn = document.querySelector('#start-btn');
 function GameStart() {
     if(started == false){
         console.log("Game Started");
-        start = true;
+        started = true;
         startBtn.style.display = 'none';
 
         level();
