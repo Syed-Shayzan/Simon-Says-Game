@@ -5,7 +5,7 @@ A fun and interactive Simon Says game built with HTML, CSS, and JavaScript.   Pl
 - Increasing difficulty with each level
 
 ## How to Play
-1. press any Key on the keyboard to start.
+1. press Start button to start the Game.
 2. Watch the sequence of colors.
 3. Repeat the sequence by clicking the buttons.
 4. Each round adds a new step — see how far you can go!
