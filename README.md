@@ -1,4 +1,4 @@
-# Simon-Says-Game : https://syed-shayzan.github.io/Simon-Says-Game/
+# Simon-Says-Game : <a href="https://syed-shayzan.github.io/Simon-Says-Game"/>Live Preview<a/>
 A fun and interactive Simon Says game built with HTML, CSS, and JavaScript.   Players must repeat the sequences of colors, testing memory and focus.
 ## Features
 - Classic Simon Says gameplay
