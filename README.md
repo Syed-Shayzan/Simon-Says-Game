@@ -1,4 +1,4 @@
-# Simon Says Game 🎮
+# Simon Says Game 🎮 (<a href="syed-shayzan.github.io/Simon-Says-Game">Live preview</a>)
 
 An interactive, browser-based memory game inspired by the classic **Simon Says** toy. Built using HTML, CSS, and JavaScript, this project tests and trains visual memory by generating increasingly complex sequences of colors that players must repeat correctly.
 
